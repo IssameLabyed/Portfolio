@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
           animate={{ scale: [1, 1.1, 1] }}
           transition={{ duration: 2, repeat: Infinity }}
         >
-          {/* Profile Photo Placeholder */}
+          {}
           <img src={profileImage} alt="Profile" className="w-full h-full rounded-full object-cover" />
         </motion.div>
         <motion.h1
@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
           <a href="#projects">Explore Projects</a>
         </motion.button>
       </motion.div>
-      {/* Floating Shapes */}
+      {}
       <motion.div
         className="absolute top-20 left-10 w-20 h-20 bg-white/10 rounded-full"
         animate={{ y: [0, -20, 0] }}
