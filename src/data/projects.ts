@@ -40,5 +40,4 @@ export interface IProject {
       github: '',
       demo: '',
     },
-    // Add more here
   ];
