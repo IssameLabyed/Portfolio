@@ -1,5 +1,5 @@
-// import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -36,7 +36,6 @@ function App() {
               <Footer />
             </motion.div>
           } />
-          {}
         </Routes>
       </div>
     </Router>

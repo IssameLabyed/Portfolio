@@ -12,7 +12,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       whileHover={{ y: -10, boxShadow: '0 20px 40px rgba(147, 112, 219, 0.3)' }}
       className="bg-white/10 dark:bg-gray-800/50 backdrop-blur-md rounded-lg overflow-hidden pixel-border"
     >
-      <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
+      <img src={project.image} alt={project.title} className="w-full h-48 object-cover rounded-t-lg mb-4" />
       <div className="p-6">
         <h3 className="text-xl font-orbitron mb-2">{project.title}</h3>
         <p className="text-gray-400 mb-4">{project.description}</p>
