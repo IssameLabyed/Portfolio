@@ -147,10 +147,10 @@ const ContactForm: React.FC = () => {
           <a href="https://www.linkedin.com/in/issame-labyed-307808221/" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-muted-green transition-colors">
             LinkedIn
           </a>
-          {/* <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-muted-green transition-colors">
+          <a href="https://github.com/IssameLabyed" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-muted-green transition-colors">
             GitHub
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-muted-green transition-colors">
+          {/* <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-2xl hover:text-muted-green transition-colors">
             Twitter
           </a> */}
         </div>
