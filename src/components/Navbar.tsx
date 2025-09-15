@@ -10,12 +10,13 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
   const [isOpen, setIsOpen] = useState(false);
+  
 
   return (
     <nav className="fixed top-0 w-full bg-gray-900/80 backdrop-blur-md dark:bg-gray-900/80 z-50 px-4 py-4">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-2xl font-orbitron font-bold text-muted-green">
-          DevPortfolio
+          Portfolio
         </Link>
         <div className="hidden md:flex space-x-6">
           <Link to="/" className="text-white hover:text-vapor-purple transition-colors">Home</Link>

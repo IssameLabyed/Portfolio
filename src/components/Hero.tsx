@@ -29,11 +29,12 @@ const Hero: React.FC = () => {
         My name is Issame Labyed ,I am a software development student at 1337 Coding School (42 Network, UM6P) with a background in Multimedia Development from ISTA NTIC Rabat. Passionate about creating innovative projects and solving complex problems, I aim to grow my skills while contributing to meaningful work.
         </p>
         <motion.button
-          whileHover={{ scale: 1.05, boxShadow: '0 0 20px #ff69b4' }}
-          className="bg-vapor-purple text-white px-8 py-4 rounded pixel-border font-orbitron"
-        >
-          <a href="#projects">Explore Projects</a>
-        </motion.button>
+        whileHover={{ scale: 1.05, boxShadow: '0 0 20px #000000' }}
+        className="bg-vapor-purple text-white px-8 py-4 rounded pixel-border font-orbitron"
+        onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+      >
+        Explore Projects
+      </motion.button>
       </motion.div>
       {}
       <motion.div
