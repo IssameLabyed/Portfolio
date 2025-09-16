@@ -3,6 +3,9 @@ import { ArrowDownIcon } from '@heroicons/react/24/outline';
 import profileImage from '../data/images/1.jpg';
 
 const Hero: React.FC = () => {
+  const handleDownloadCV = () => {
+    window.open('https://drive.google.com/file/d/1r-gCYwH70vjCIoH6cHgG2vMrCMnxY5fA/view?usp=sharing', '_blank'); 
+  };
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-vapor-pink via-vapor-purple to-neon-blue relative overflow-hidden">
       <motion.div
@@ -28,14 +31,27 @@ const Hero: React.FC = () => {
         <p className="text-xl md:text-2xl font-orbitron mb-8 max-w-2xl mx-auto px-4">
         My name is Issame Labyed ,I am a software development student at 1337 Coding School (42 Network, UM6P) with a background in Multimedia Development from ISTA NTIC Rabat. Passionate about creating innovative projects and solving complex problems, I aim to grow my skills while contributing to meaningful work.
         </p>
+        <div className="flex flex-col items-center gap-4"> 
         <motion.button
         whileHover={{ scale: 1.05, boxShadow: '0 0 20px #000000' }}
         className="bg-vapor-purple text-white px-8 py-4 rounded pixel-border font-orbitron"
         onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
-      >
+        >
         Explore Projects
       </motion.button>
+      <motion.button
+          whileHover={{ scale: 1.05, boxShadow: '0 0 20px #000000' }}
+          // href="https://google.com/your-cv.pdf" 
+          onClick={handleDownloadCV}
+          // rel="noopener noreferrer"
+          className="bg-vapor-purple text-white px-8 py-4 rounded pixel-border font-orbitron"
+        >
+          Download CV
+        </motion.button>
+        </div>
       </motion.div>
+
+      
       {}
       <motion.div
         className="absolute top-20 left-10 w-20 h-20 bg-white/10 rounded-full"
