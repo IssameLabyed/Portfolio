@@ -21,7 +21,7 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
   return (
     <nav className="fixed top-0 w-full bg-gray-900/80 backdrop-blur-md dark:bg-gray-900/80 z-50 px-4 py-4">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-2xl font-orbitron font-bold text-muted-green">Portfolio</div> {/* Removed Link for simplicity */}
+        <div className="text-2xl font-orbitron font-bold text-muted-green">Portfolio</div>
         <div className="hidden md:flex space-x-6">
           <button onClick={() => scrollToSection('home')} className="text-white hover:text-vapor-purple transition-colors">Home</button>
           <button onClick={() => scrollToSection('skills')} className="text-white hover:text-vapor-purple transition-colors">Skills</button>

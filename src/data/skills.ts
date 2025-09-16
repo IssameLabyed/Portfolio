@@ -6,7 +6,6 @@ export interface ISkill {
 
   export const skills: ISkill[] = [
     { name: 'HTML/CSS/JS', category: 'Web', icon: 'code' }, 
-    // { name: 'React', category: 'Web', icon: 'sparkles' }, 
     { name: 'Tailwind', category: 'Web', icon: 'adjustments-horizontal' }, 
     { name: 'Flutter', category: 'Mobile', icon: 'device-phone-mobile' }, 
     { name: 'Python', category: 'Programming', icon: 'code' }, 

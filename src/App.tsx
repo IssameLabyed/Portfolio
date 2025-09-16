@@ -7,7 +7,6 @@ import ContactForm from './components/ContactForm';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
-  // const [isOpen, setIsOpen] = useState(false); // Add state for mobile menu
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
