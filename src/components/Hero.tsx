@@ -19,11 +19,11 @@ const Hero: React.FC = () => {
   //   }
   };
   const handleFrenchCV = () => {
-    window.open('https://drive.google.com/file/d/1nJoyZ_3JErF1yIxISCu_ZLbCOhzs90yh/view?usp=sharing', '_blank'); // Replace with French CV URL
+    window.open('https://drive.google.com/file/d/1J3Co1HZfGEvT5laA0lPpS4xYXpHJTtAV/view?usp=sharing', '_blank'); // Replace with French CV URL
   };
 
   const handleEnglishCV = () => {
-    window.open('https://drive.google.com/file/d/12sbN5uKpgmaXscrgXKIWH0g31F6jv26-/view?usp=sharing', '_blank'); // Replace with English CV URL
+    window.open('https://drive.google.com/file/d/161g1tQfc1eqyTOTGPoBTRxEG8gixxaLe/view?usp=sharing', '_blank'); // Replace with English CV URL
   };
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-vapor-pink via-vapor-purple to-neon-blue relative overflow-hidden">
